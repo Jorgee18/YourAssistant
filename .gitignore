@@ -1,0 +1,16 @@
+# Secretos (nunca subir: service_role, VAPID, tokens)
+.env
+.env.*
+!.env.example
+
+# Dependencias y builds
+node_modules/
+frontend/dist/
+.vercel
+
+# Varios
+*.log
+.DS_Store
+
+# Configuración local de herramientas de desarrollo
+.opencode/
